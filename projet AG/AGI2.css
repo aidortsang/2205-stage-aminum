@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(24, 219, 177);
+
+}
+h4,body{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+#bar {
+    height:45%;
+    width: 100%;
+}
+
+table.BarTable,th,td {
+    border:1px solid black;
+    
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
