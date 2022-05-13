@@ -1,43 +1,15 @@
-* {
-    box-sizing: border-box;
-  }
-  h2{
-      color:red ;
-  }
-  
-  
-  body {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-  }
-  
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  h1{
-      color: rgb(26, 180, 142);
-  }
+.titreorange{
+  border: solid 1px red;
+  display: flex;
+}
+ h3{
+   background-color: orange;
+   border: solid  1px green;
+ }
+ .temps{
+   border: solid 1px blue;
+ }
 
-  h4{
-      color: red;
-  }
-  .top
-  {
-      background-color: red;
-  }
+ .groupetemps{
+   border:solid 3px cyan;
+ }
